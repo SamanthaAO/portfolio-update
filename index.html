@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Samantha Orcutt - Portfolio</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Added a link to our external stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+
+    <!--Added a link to jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="blue-grey darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="assets/images/logo.png" alt="logo" id="logoImage"></a>
+                <a href="#" class="brand-logo center">Samantha Orcutt</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#aboutMeDiv">About Me</a></li>
+                    <li><a href="#portfolioDiv">Portfolio</a></li>
+                    <li><a href="#contactDiv">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#aboutMeDiv">About Me</a></li>
+            <li><a href="#portfolioDiv">Portfolio</a></li>
+            <li><a href="#contactDiv">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div class="mainContent">
+
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div id="aboutMeDiv" class="section scrollspy">
+                    <h1 id="aboutMeTitle" class="center-align">About Me</h1>
+                    <img class="left" src="assets/images/profile.jpg" alt="image of Samantha" id="profileImage">
+                    <p id="blurb">Web Developer that graduated cum laude in Environmental Studies from UW and has experience working in the financial and legal sectors.
+                        Known for my friendly demeanor and hardworking, detail oriented, work ethic. My background gives me a unique perspective on how to tackle
+                        problems, and provides me with a very structured approach to get any task required accomplished in a very organized and concise fashion.
+                        I recently completed UW’s coding bootcamp and loved every second of it. I am always up for a
+                        challenge and love puzzles, and the bootcamp showed me that there is a whole world out there that is full of these opportunities. I am
+                        incredibly excited to apply my skills in HTML, CSS, and JavaScript, and continue to grow in this expansive field. </p>
+
+
+                </div>
+            </div>
+        </div>
+
+            <div class="row">
+                <h1 id="portfolioTitle" class="center-align">Portfolio</h1>
+                <div id="portfolioDiv" class="section scrollspy">
+
+                    <div id="portfolioCards"></div>
+                    <!-- <div class="col s12 m6 l6">
+                        <div class="card sticky-action">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/office.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Card Title<i
+                                        class="material-icons right">more_vert</i></span>
+                                <div class="card-action">
+                                    <a href="#" class="cardLinks"><i class="material-icons">web</i></a>
+                                    <a href="#" class="cardLinks"><i class="material-icons">code</i></a>
+                                </div>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col s12 m9 l10">
+                    <div id="contactDiv" class="section scrollspy">
+                        <h1 id="contactTitle" class="center-align">Contact</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!--Added link to our javascript-->
+        <script src="assets/javascript/portfolio.js"></script>
+</body>
+
+</html>

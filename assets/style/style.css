@@ -1,0 +1,42 @@
+body {
+    color: #212121;
+}
+
+#logoImage {
+    height: 4rem;
+    margin: 0 20px;
+}
+
+#profileImage {
+    height: 16rem;
+    margin:20px;
+}
+
+#blurb {
+    font-size: 1.25rem;
+    
+}
+
+#aboutMeTitle {
+
+    text-decoration-line: underline;
+    text-decoration-color: #C70039;
+}
+
+#portfolioTitle {
+    text-decoration-line: underline;
+    text-decoration-color: #FFC300;
+    
+}
+
+.cardLinks{
+    color:#FFC300
+}
+
+#contactTitle {
+    text-decoration-line: underline;
+    text-decoration-color: #1A5276;
+    
+}
+
+
