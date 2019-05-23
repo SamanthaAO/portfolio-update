@@ -2,6 +2,8 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
     $('.scrollspy').scrollSpy();
+    $('.tooltipped').tooltip();
+    $('input#input_text, textarea#textarea2').characterCounter();
 });
 
 
@@ -55,15 +57,15 @@ projects.forEach(function (project) {
 
     insert +=
         `<div class="col s12 m6 l6">
-                <div class="card sticky-action">
+                <div class="card hoverable sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="${project.image}" alt="${project.name}">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator">${project.name} <i class="material-icons right">more_vert</i></span>
                         <div class="card-action">
-                            <a href="${project.deployed}" class="cardLinks"><i class="material-icons">web</i></a>
-                            <a href="${project.repo}" class="cardLinks"><i class="material-icons">code</i></a>
+                            <a href="${project.deployed}" class="cardLinks tooltipped" data-position="bottom" data-tooltip="View Deployed Version"><i class="material-icons">web</i></a>
+                            <a href="${project.repo}" class="cardLinks tooltipped" data-position="bottom" data-tooltip="View Github Repository"><i class="material-icons">code</i></a>
                         </div>
                     </div>
                     <div class="card-reveal">

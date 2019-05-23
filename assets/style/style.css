@@ -1,8 +1,18 @@
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+body {
     color: #212121;
 }
 
-#logoImage {
+#logoImage, .linkIcon {
     height: 4rem;
     margin: 0 20px;
 }
@@ -21,6 +31,11 @@ body {
 
     text-decoration-line: underline;
     text-decoration-color: #C70039;
+    
+}
+
+#name {
+    display: inline;
 }
 
 #portfolioTitle {
@@ -39,4 +54,8 @@ body {
     
 }
 
+
+
+
+      
 
