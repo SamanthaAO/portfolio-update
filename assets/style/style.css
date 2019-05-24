@@ -1,3 +1,5 @@
+/* general */
+
 body {
     display: flex;
     min-height: 100vh;
@@ -18,11 +20,13 @@ h1 {
     font-family: 'Lora', serif;
 }
 
+/* nav and icons in portfolio cards */
 #logoImage, .linkIcon {
     height: 4rem;
     margin: 0 20px;
 }
 
+/* abotu me section */
 #profileImage {
     height: 16rem;
     margin:20px;
@@ -35,6 +39,7 @@ h1 {
 }
 
 #aboutMeTitle{
+  padding-top: 4.5rem;
   border-bottom: 1rem solid #C70039;
   width: 100%;
   display: block;
@@ -44,7 +49,10 @@ h1 {
     display: inline;
 }
 
+/* portfolio section */
 #portfolioTitle {
+  padding-top: 4.5rem;
+  margin-top: 5rem;
   border-bottom: 1rem solid #FFC300;
   width: 100%;
   display: block;
@@ -55,7 +63,13 @@ h1 {
     color:#FFC300
 }
 
+.iconRow {
+  margin-bottom: 0;
+}
+
+/* contact section */
 #contactTitle {
+  padding-top: 4.5rem;
   border-bottom: 1rem solid #1A5276;
   width: 100%;
   display: block;
@@ -65,9 +79,8 @@ h1 {
 #submitBtn{
   background-color: #1A5276;
 }
-.iconRow {
-    margin-bottom: 0;
-}
+
+
 
 
   /* label color */
@@ -93,7 +106,6 @@ h1 {
     border-bottom: 1px solid #000 !important;
     box-shadow: 0 1px 0 0 #000 !important;
   }
-
 
   /* valid color */
   .input-field input[type=text].valid {

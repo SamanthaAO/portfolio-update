@@ -1,4 +1,4 @@
-
+//initialises materialize js functionality
 $(document).ready(function () {
     $('.sidenav').sidenav();
     $(".dropdown-trigger").dropdown();
@@ -7,7 +7,7 @@ $(document).ready(function () {
     $('input#input_text, textarea#textarea2').characterCounter();
 });
 
-
+//object with portfolio card information
 var projects = [
     {
         name: "Hello World",
@@ -52,7 +52,7 @@ var projects = [
 
 
 
-
+//creates porrtfolio cards
 var insert = "";
 projects.forEach(function (project) {
 
@@ -80,9 +80,11 @@ projects.forEach(function (project) {
 $("#portfolioCards").append(insert);
 
 
+//makes it so that each section fits the whole page
 function createPageCards(){
     console.log("resizing....")
 
+    if ($(".contentContainer").css("height")< window.screen.height)
     $(".contentContainer").css("height", window.screen.height)
 }
 
