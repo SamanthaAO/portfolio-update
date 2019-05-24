@@ -1,6 +1,7 @@
 
 $(document).ready(function () {
     $('.sidenav').sidenav();
+    $(".dropdown-trigger").dropdown();
     $('.scrollspy').scrollSpy();
     $('.tooltipped').tooltip();
     $('input#input_text, textarea#textarea2').characterCounter();
@@ -77,3 +78,13 @@ projects.forEach(function (project) {
 })
 
 $("#portfolioCards").append(insert);
+
+
+function createPageCards(){
+    console.log("resizing....")
+
+    $(".contentContainer").css("height", window.screen.height)
+}
+
+$(window).resize(createPageCards)
+createPageCards();
