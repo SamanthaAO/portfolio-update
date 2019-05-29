@@ -88,5 +88,5 @@ function createPageCards(){
     $(".contentContainer").css("height", window.screen.height)
 }
 
-$(window).resize(createPageCards)
+$(window).resize(createPageCards())
 createPageCards();
