@@ -45,6 +45,14 @@ var projects = [
         deployed: "https://samanthaao.github.io/unit_4_game/",
         image: "assets/images/barnyard.png",
     },
+    {
+        name: "LIRI",
+        blurb: "Find out information on your favorites bands, songs, and movies all from the comfort of your own terminal.",
+        repo: "https://github.com/SamanthaAO/liri-node-app",
+        deployed: "#",
+        image: "assets/images/liri.png",
+    },
+
 
 ]
 
