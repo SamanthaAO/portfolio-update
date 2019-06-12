@@ -52,6 +52,13 @@ var projects = [
         deployed: "#",
         image: "assets/images/liri.png",
     },
+    {
+        name: "Dessert Dash: Word Guess Game",
+        blurb: "Guess letters to identify the hidden dessert word.",
+        repo: "https://github.com/SamanthaAO/constructor-word-guess",
+        deployed: "#",
+        image: "assets/images/wordGuess.png",
+    },
 
 
 ]
