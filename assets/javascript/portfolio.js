@@ -38,13 +38,13 @@ var projects = [
         image: "assets/images/got.png",
     },
 
-    {
-        name: "BarnYard Brawl RPG",
-        blurb: "Chose your favorite barnyard character and then fight your way through your opponeents to be the last one standing.",
-        repo: "https://github.com/SamanthaAO/unit_4_game",
-        deployed: "https://samanthaao.github.io/unit_4_game/",
-        image: "assets/images/barnyard.png",
-    },
+    // {
+    //     name: "BarnYard Brawl RPG",
+    //     blurb: "Chose your favorite barnyard character and then fight your way through your opponeents to be the last one standing.",
+    //     repo: "https://github.com/SamanthaAO/unit_4_game",
+    //     deployed: "https://samanthaao.github.io/unit_4_game/",
+    //     image: "assets/images/barnyard.png",
+    // },
     {
         name: "LIRI",
         blurb: "Find out information on your favorites bands, songs, and movies all from the comfort of your own terminal.",
@@ -59,6 +59,14 @@ var projects = [
         deployed: "#",
         image: "assets/images/wordGuess.png",
     },
+    {
+        name: "Poké Mart",
+        blurb: "Come check out all the great finds that we have in store for you. View the Poké Mart as a customer, manager, or supervisor.",
+        repo: "https://github.com/SamanthaAO/bamazon",
+        deployed: "#",
+        image: "assets/images/customerSuccess.gif",
+    },
+    
 
 
 ]
