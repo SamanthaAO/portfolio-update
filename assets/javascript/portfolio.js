@@ -38,13 +38,13 @@ var projects = [
         image: "assets/images/got.png",
     },
 
-    // {
-    //     name: "BarnYard Brawl RPG",
-    //     blurb: "Chose your favorite barnyard character and then fight your way through your opponeents to be the last one standing.",
-    //     repo: "https://github.com/SamanthaAO/unit_4_game",
-    //     deployed: "https://samanthaao.github.io/unit_4_game/",
-    //     image: "assets/images/barnyard.png",
-    // },
+    {
+        name: "BarnYard Brawl RPG",
+        blurb: "Chose your favorite barnyard character and then fight your way through your opponeents to be the last one standing.",
+        repo: "https://github.com/SamanthaAO/unit_4_game",
+        deployed: "https://samanthaao.github.io/unit_4_game/",
+        image: "assets/images/barnyard.png",
+    },
     {
         name: "LIRI",
         blurb: "Find out information on your favorites bands, songs, and movies all from the comfort of your own terminal.",
@@ -66,6 +66,14 @@ var projects = [
         deployed: "#",
         image: "assets/images/customerSuccess.gif",
     },
+    {
+        name: "Date A Wizard",
+        blurb: "Find your Harry Potter Soulmate with this 10 question quiz.",
+        repo: "https://github.com/SamanthaAO/DateAWizard",
+        deployed: "https://serene-mesa-66125.herokuapp.com/",
+        image: "assets/images/dateAWizard.png",
+    },
+    
     
 
 
@@ -83,7 +91,7 @@ projects.forEach(function (project) {
         `<div class="col s12 m6 l6">
                 <div class="card hoverable sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="${project.image}" alt="${project.name}">
+                        <img class="activator" src="${project.image}" height="350rem" alt="${project.name}">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator">${project.name} <i class="material-icons right">more_vert</i></span>
