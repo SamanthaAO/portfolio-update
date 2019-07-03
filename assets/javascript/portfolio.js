@@ -73,6 +73,13 @@ var projects = [
         deployed: "https://serene-mesa-66125.herokuapp.com/",
         image: "assets/images/dateAWizard.png",
     },
+    {
+        name: "Adopt A Kitten",
+        blurb: "Where you can fufill all your urges to adopt infinate kittens without being branded with the title of crazy cat lady.",
+        repo: "https://github.com/SamanthaAO/AdoptAKitten",
+        deployed: "https://adopt-a-kitten.herokuapp.com/",
+        image: "assets/images/kitten.png",
+    },
     
     
 
