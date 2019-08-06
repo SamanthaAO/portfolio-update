@@ -17,6 +17,27 @@ var projects = [
         image: "assets/images/HelloWorld.png",
     },
     {
+        name: "Blocker Buster",
+        blurb: "When you hit a blocker you just cant bust come play our games and chat with fellow developers. Our two games let you jovially collect frontend and backend skills giving you a task that you can accomplish. Each game aslo has its own chatroom so you can ask fellow developers for help. Through this relaxing fun game and stimulation by other developers howpfully soon your blocker will be BUSTED!",
+        repo: "https://github.com/SamanthaAO/blockerBuster",
+        deployed: "https://blockerbuster.herokuapp.com/",
+        image: "assets/images/blocker.png",
+    },
+    {
+        name: "Clicky Game",
+        blurb: "Enjoy the luxury of react in this rediculous Borris Johnson themed game where you much click unique images each time as they are shuffled. This interactive game is sure to make you laugh. ",
+        repo: "https://github.com/SamanthaAO/clickyGame",
+        deployed: "https://samanthaao.github.io/clickyGame/",
+        image: "assets/images/bojo.png",
+    },
+    {
+        name: "NPR Scraper",
+        blurb: "Scrape all the top articles from NPR. Leave comments and favorite them and se what other have comented and favorited.",
+        repo: "https://github.com/SamanthaAO/ScrapeNPR",
+        deployed: "https://npr-scrapper.herokuapp.com/national",
+        image: "assets/images/scraper.png",
+    },
+    {
         name: "Multiplayer Rock Paper Scissors",
         blurb: "Come play rock paper scissors with friends! Includes rock paper scissors game with images and chat feature.",
         repo: "https://github.com/SamanthaAO/RockPaperScissors-Multiplayer",
