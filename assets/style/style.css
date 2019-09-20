@@ -29,7 +29,9 @@ h1 {
 /* abotu me section */
 #profileImage {
     height: 16rem;
-    margin:20px;
+    margin-top:20px;
+    margin-right:10px;
+    
 }
 
 #blurb {
